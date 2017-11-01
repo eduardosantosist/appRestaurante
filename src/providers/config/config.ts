@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+//import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 let config_key_name = "config"
 @Injectable()
 export class ConfigProvider {
 
-  private config = {
+  /*private config = {
     showSlide: false,
     name: "",
     username: ""
-  }
+  }*/
   constructor() {
     
   }
